@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Gestion_des_produits">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vcTmcN30Ee2QO7WDML_TXQ" name="Administrateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vdkKsN30Ee2QO7WDML_TXQ" name="visiteur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vdpDMN30Ee2QO7WDML_TXQ" name="client"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vfuG0N30Ee2QO7WDML_TXQ" name="gerer_des_tableaux"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vgMn8N30Ee2QO7WDML_TXQ" name="ajouter_un_tableau"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vgWY8N30Ee2QO7WDML_TXQ" name="afficher_la_liste_des_produits"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vggJ8N30Ee2QO7WDML_TXQ" name="Authentification"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vgrJEN30Ee2QO7WDML_TXQ" name="modifier_un_tableau"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vgwBkN30Ee2QO7WDML_TXQ" name="supprimer_un_tableau"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vg4kcN30Ee2QO7WDML_TXQ" name="rechercher_un_tableau"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vhDjkN30Ee2QO7WDML_TXQ" name="login">
+    <generalization xmi:id="_vhNUkN30Ee2QO7WDML_TXQ" general="_vggJ8N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vhXFkN30Ee2QO7WDML_TXQ" name="mot_de_passe">
+    <generalization xmi:id="_vhg2kN30Ee2QO7WDML_TXQ" general="_vggJ8N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vhlvEN30Ee2QO7WDML_TXQ" name="gerer_les_comptes_clients"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vhvgEN30Ee2QO7WDML_TXQ" name="rechercher_client"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vh7tUN30Ee2QO7WDML_TXQ" name="authentifier"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_viAl0N30Ee2QO7WDML_TXQ" name="lister_client"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_viOBMN30Ee2QO7WDML_TXQ" name="supprimer_client"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_viXyMN30Ee2QO7WDML_TXQ" name="modifier_client"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vihjMN30Ee2QO7WDML_TXQ" name="ajouter_client"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_virUMN30Ee2QO7WDML_TXQ" name="gerer_les_comptes_peintres"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_viyo8N30Ee2QO7WDML_TXQ" name="rechercher_un_peintre"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vi-2MN30Ee2QO7WDML_TXQ" name="modifier_peintre"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vjInMN30Ee2QO7WDML_TXQ" name="ajouter_peintre"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vjSYMN30Ee2QO7WDML_TXQ" name="supprimer_peintre"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vjcJMN30Ee2QO7WDML_TXQ" name="authentifier_peintre"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vjhBsN30Ee2QO7WDML_TXQ" name="lister_les_peintres"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vjvrMN30Ee2QO7WDML_TXQ" name="login_client">
+    <generalization xmi:id="_vj1x0N30Ee2QO7WDML_TXQ" general="_vh7tUN30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vj_i0N30Ee2QO7WDML_TXQ" name="mot_de_passe_client">
+    <generalization xmi:id="_vkEbUN30Ee2QO7WDML_TXQ" general="_vh7tUN30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vkOMUN30Ee2QO7WDML_TXQ" name="login_peintre">
+    <generalization xmi:id="_vkX9UN30Ee2QO7WDML_TXQ" general="_vjcJMN30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vkc10N30Ee2QO7WDML_TXQ" name="mot_de_passe_peintre">
+    <generalization xmi:id="_vkmm0N30Ee2QO7WDML_TXQ" general="_vjcJMN30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vkstcN30Ee2QO7WDML_TXQ" name="acceder_au_site"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vk46sN30Ee2QO7WDML_TXQ" name="consulter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vlD50N30Ee2QO7WDML_TXQ" name="recherche"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vlNq0N30Ee2QO7WDML_TXQ" name="s_inscrire"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vlXb0N30Ee2QO7WDML_TXQ" name="nom">
+    <generalization xmi:id="_vlcUUN30Ee2QO7WDML_TXQ" general="_vlNq0N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vlmsYN30Ee2QO7WDML_TXQ" name="adresse">
+    <generalization xmi:id="_vlv2UN30Ee2QO7WDML_TXQ" general="_vlNq0N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vl0u0N30Ee2QO7WDML_TXQ" name="telephone">
+    <generalization xmi:id="_vl-f0N30Ee2QO7WDML_TXQ" general="_vlNq0N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vmIQ0N30Ee2QO7WDML_TXQ" name="prenom">
+    <generalization xmi:id="_vmNJUN30Ee2QO7WDML_TXQ" general="_vlNq0N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vmW6UN30Ee2QO7WDML_TXQ" name="email">
+    <generalization xmi:id="_vmby0N30Ee2QO7WDML_TXQ" general="_vlNq0N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vmjuoN30Ee2QO7WDML_TXQ" name="acceder_a_son_espace"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vms4kN30Ee2QO7WDML_TXQ" name="passer_commande"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vm33sN30Ee2QO7WDML_TXQ" name="gestion_panier"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vnBosN30Ee2QO7WDML_TXQ" name="se_deconnecter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vnLZsN30Ee2QO7WDML_TXQ" name="authentification_client"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vnuMQN30Ee2QO7WDML_TXQ" name="Association_1" memberEnd="_vn2IEN30Ee2QO7WDML_TXQ _vreD0N30Ee2QO7WDML_TXQ" navigableOwnedEnd="_vn2IEN30Ee2QO7WDML_TXQ _vreD0N30Ee2QO7WDML_TXQ">
+    <ownedEnd xmi:id="_vn2IEN30Ee2QO7WDML_TXQ" name="src" type="_vfuG0N30Ee2QO7WDML_TXQ" association="_vnuMQN30Ee2QO7WDML_TXQ"/>
+    <ownedEnd xmi:id="_vreD0N30Ee2QO7WDML_TXQ" name="dst" type="_vcTmcN30Ee2QO7WDML_TXQ" association="_vnuMQN30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vreD0d30Ee2QO7WDML_TXQ" name="Association_2" memberEnd="_vreD0t30Ee2QO7WDML_TXQ _vrkKcN30Ee2QO7WDML_TXQ" navigableOwnedEnd="_vreD0t30Ee2QO7WDML_TXQ _vrkKcN30Ee2QO7WDML_TXQ">
+    <ownedEnd xmi:id="_vreD0t30Ee2QO7WDML_TXQ" name="src" type="_vcTmcN30Ee2QO7WDML_TXQ" association="_vreD0d30Ee2QO7WDML_TXQ"/>
+    <ownedEnd xmi:id="_vrkKcN30Ee2QO7WDML_TXQ" name="dst" type="_vhlvEN30Ee2QO7WDML_TXQ" association="_vreD0d30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vrpC8N30Ee2QO7WDML_TXQ" name="Association_3" memberEnd="_vrpC8d30Ee2QO7WDML_TXQ _vrt7cN30Ee2QO7WDML_TXQ" navigableOwnedEnd="_vrpC8d30Ee2QO7WDML_TXQ _vrt7cN30Ee2QO7WDML_TXQ">
+    <ownedEnd xmi:id="_vrpC8d30Ee2QO7WDML_TXQ" name="src" type="_vcTmcN30Ee2QO7WDML_TXQ" association="_vrpC8N30Ee2QO7WDML_TXQ"/>
+    <ownedEnd xmi:id="_vrt7cN30Ee2QO7WDML_TXQ" name="dst" type="_virUMN30Ee2QO7WDML_TXQ" association="_vrpC8N30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vrt7cd30Ee2QO7WDML_TXQ" name="Association_4" memberEnd="_vrt7ct30Ee2QO7WDML_TXQ _vr2eUN30Ee2QO7WDML_TXQ" navigableOwnedEnd="_vrt7ct30Ee2QO7WDML_TXQ _vr2eUN30Ee2QO7WDML_TXQ">
+    <ownedEnd xmi:id="_vrt7ct30Ee2QO7WDML_TXQ" name="src" type="_vdpDMN30Ee2QO7WDML_TXQ" association="_vrt7cd30Ee2QO7WDML_TXQ"/>
+    <ownedEnd xmi:id="_vr2eUN30Ee2QO7WDML_TXQ" name="dst" type="_vmjuoN30Ee2QO7WDML_TXQ" association="_vrt7cd30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vr2eUd30Ee2QO7WDML_TXQ" name="Association_5" memberEnd="_vr2eUt30Ee2QO7WDML_TXQ _vr8k8N30Ee2QO7WDML_TXQ" navigableOwnedEnd="_vr2eUt30Ee2QO7WDML_TXQ _vr8k8N30Ee2QO7WDML_TXQ">
+    <ownedEnd xmi:id="_vr2eUt30Ee2QO7WDML_TXQ" name="src" type="_vdkKsN30Ee2QO7WDML_TXQ" association="_vr2eUd30Ee2QO7WDML_TXQ"/>
+    <ownedEnd xmi:id="_vr8k8N30Ee2QO7WDML_TXQ" name="dst" type="_vkstcN30Ee2QO7WDML_TXQ" association="_vr2eUd30Ee2QO7WDML_TXQ"/>
+  </packagedElement>
+</uml:Model>
